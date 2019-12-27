@@ -1,4 +1,4 @@
-<keymap version="1" name="VSCode Seb" parent="VSCode">
+<keymap version="1" name="seb_config" parent="VSCode">
   <action id="ActivateEventLogToolWindow">
     <keyboard-shortcut first-keystroke="shift ctrl meta e" />
   </action>
