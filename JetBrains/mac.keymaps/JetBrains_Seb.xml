@@ -57,6 +57,7 @@
     <keyboard-shortcut first-keystroke="meta delete" />
   </action>
   <action id="EditorJoinLines" />
+  <action id="EditorPasteFromX11" />
   <action id="EditorSelectLine" />
   <action id="EditorSplitLine" />
   <action id="ExtractMethod">
@@ -84,6 +85,12 @@
   <action id="GoToTab6">
     <keyboard-shortcut first-keystroke="meta 6" />
   </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="f12" />
+    <mouse-shortcut keystroke="meta button1" />
+    <keyboard-shortcut first-keystroke="shift space" />
+    <mouse-shortcut keystroke="button2" />
+  </action>
   <action id="GotoSymbol" />
   <action id="GotoTest">
     <keyboard-shortcut first-keystroke="meta t" />
@@ -98,6 +105,10 @@
     <keyboard-shortcut first-keystroke="alt k" />
   </action>
   <action id="MoveTabRight" />
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
+  <action id="NewScratchFile" />
   <action id="NextEditorTab" />
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt tab" />
@@ -145,6 +156,9 @@
     <keyboard-shortcut first-keystroke="meta f1" />
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
+  <action id="ShowLiveRunConfigurations">
+    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
+  </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="shift f5" />
     <keyboard-shortcut first-keystroke="shift ctrl x" />
@@ -168,6 +182,9 @@
   </action>
   <action id="XDebugger.MuteBreakpoints">
     <keyboard-shortcut first-keystroke="meta m" />
+  </action>
+  <action id="editRunConfigurations">
+    <keyboard-shortcut first-keystroke="meta alt r" />
   </action>
   <action id="floobits.actions.FollowMode">
     <keyboard-shortcut first-keystroke="shift ctrl meta f" />
