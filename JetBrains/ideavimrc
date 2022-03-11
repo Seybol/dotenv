@@ -1,0 +1,37 @@
+set surround
+set ReplaceWithRegister
+set easymotion
+let mapleader = ","
+"nnoremap <C-J> <C-W><C-J>
+"nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+nmap <leader>q :q<CR>
+set splitbelow
+set splitright
+nnoremap H 0
+nnoremap L $
+nnoremap J G
+nnoremap K gg
+nnoremap <leader>% <C>]
+nnoremap <leader>a :action About<cr>
+nnoremap <leader>t :tabnew<CR>
+nnoremap <leader>v :vsplit<CR>
+nnoremap <leader>s :split<CR>
+nnoremap <Space> :action ToggleLineBreakpoint<CR>
+map <leader>case :action ToggleCamelSnakeCase<CR>
+map <leader>gc :action CheckinProject<CR>
+map <leader>ll iconsole.log()<Esc><Left>i<CR>
+map <leader>push :action Vcs.Push<CR>
+map <leader>pull :action Vcs.Pull<CR>
+map <leader>r :action DebugClass<CR>
+map <C-J> :action ActivateTerminalToolWindow<CR>
+nmap <leader><leader>s :action KJumpAction<cr>
+nmap <leader><leader>w :action KJumpAction.Word0<cr>
+nmap <leader><leader>l :action KJumpAction.Line<cr>
+let @a='"Vim''s quote handling is a little tricky"'
+map # :action ReformatCode<CR>
+set visualbell
+set noerrorbells
+map <S-Space> :action GotoDeclaration<CR>
+nmap <S-Space> :action GotoDeclaration<CR>
