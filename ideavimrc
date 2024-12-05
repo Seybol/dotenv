@@ -1,0 +1,73 @@
+set surround "vim surround
+set relativenumber
+set number
+set ReplaceWithRegister
+let mapleader = ","
+set easymotion
+"nnoremap <C-J> <C-W><C-J>
+"nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+nmap <leader>q :q<CR>
+set splitbelow
+set splitright
+
+nnoremap H ^
+nnoremap L $
+nnoremap J $%
+nnoremap K $%
+
+onoremap L $
+onoremap H ^
+onoremap J $%
+nnoremap K $%
+
+vnoremap L $
+vnoremap H ^
+vnoremap J $%
+nnoremap K $%
+
+nnoremap n nzz
+nnoremap x "_x
+vnoremap p "_dP
+
+nnoremap <leader>a :action About<cr>
+nnoremap <leader>t :tabnew<CR>
+nnoremap <leader>v :vsplit<CR>
+nnoremap <leader>s :split<CR>
+nnoremap <leader>m :call cursor(0, virtcol('$')/2)<CR>
+nnoremap <Space> :action ToggleLineBreakpoint<CR>
+map <leader>case :action ToggleCamelSnakeCase<CR>
+map <leader>gc :action CheckinProject<CR>
+map <leader>gm :action CheckinProject<CR>
+map <leader>ll iconsole.log()<Esc><Left>i<CR>
+map <leader>push :action Vcs.Push<CR>
+map <leader>pull :action Vcs.Pull<CR>
+map <leader>R :action DebugClass<CR>
+map <leader>r :action RunClass<CR>
+map <C-J> :action ActivateTerminalToolWindow<CR>
+nmap <leader><leader>s :action KJumpAction<cr>
+nmap <leader><leader>w :action AceAction<cr>
+nmap <leader><leader>l :action KJumpAction.Line<cr>
+nmap <leader><leader>n :action MotionMiddleColumnAction<cr>
+nmap - :action IntroduceVariable<cr>
+let @a='"Vim''s quote handling is a little tricky"'
+map # :action ReformatCode<CR>
+set visualbell
+set noerrorbells
+map <S-Space> :action GotoDeclaration<CR>
+nmap <S-Space> :action GotoDeclaration<CR>
+Plug 'easymotion/vim-easymotion'
+nmap n :action AceAction<cr>
+
+Plug 'easymotion/vim-easymotion'
+Plug 'machakann/vim-highlightedyank'
+let g:highlightedyank_highlight_duration = 1000
+let g:highlightedyank_highlight_color = "rgba(23, 90, 188, 255)"
+
+
+nmap <CR> <Plug>(easymotion-s)
+vmap <CR> <Plug>(easymotion-s)
+
+vnoremap y myy`y
+vnoremap Y myY`y
