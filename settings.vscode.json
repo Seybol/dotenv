@@ -1,0 +1,71 @@
+{
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.minimap.enabled": false,
+  "vim.vimrc.enable": true,
+  "files.autoSave": "onFocusChange",
+  "git.autofetch": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "projectManager.git.baseFolders": [
+    "~/Projects/B4F/",
+    "~/Projects/Winit/"
+  ],
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "\"JetBrains Mono\", Menlo, Monaco, 'Courier New', monospace",
+  "editor.snippetSuggestions": "top",
+  "window.nativeTabs": true,
+  "vim.foldfix": true,
+  "vim.easymotion": true,
+  "vim.leader": " ",
+  "eslint.alwaysShowStatus": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "debug.javascript.defaultRuntimeExecutable": {
+    "pwa-node": "/Users/sebastiencebula/.nvm/versions/node/v15.14.0/bin/node"
+  },
+  "vim.easymotionKeys": "sdfjkl",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<space>"
+      ],
+      "commands": [
+        "editor.debug.action.toggleBreakpoint"
+      ]
+    },
+    {
+      "before": [
+        "shift",
+        "space"
+      ],
+      "commands": [
+        "editor.debug.action.toggleBreakpoint"
+      ]
+    }
+  ],
+  "gitlens.advanced.messages": {
+    "suppressCreatePullRequestPrompt": true
+  },
+  "jupyter.allowUnauthorizedRemoteConnection": true,
+  "git.experimental.mergeEditor": true,
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#2a43b4",
+    "editor.selectionHighlightBackground": "#444444"
+  },
+  "editor.lineNumbers": "relative",
+  "redhat.telemetry.enabled": false,
+  "java.saveActions.organizeImports": true,
+  "editor.formatOnSave": true,
+  "diffEditor.codeLens": true,
+  "java.codeGeneration.generateComments": true,
+  "java.codeGeneration.hashCodeEquals.useInstanceof": true,
+  "java.codeGeneration.hashCodeEquals.useJava7Objects": true,
+  "gitlens.codeLens.includeSingleLineSymbols": true,
+  "continue.enableTabAutocomplete": true,
+}

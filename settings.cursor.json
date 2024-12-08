@@ -1,0 +1,88 @@
+{
+  // Editor settings
+  "editor.tabSize": 2, // Set tab size to 2 spaces
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true, // Enable independent color pool for bracket pair colorization
+  "editor.fontFamily": "\"JetBrains Mono\", Menlo, Monaco, 'Courier New', monospace", // Set the editor font family
+  "editor.fontLigatures": true, // Enable font ligatures
+  "editor.formatOnSave": true, // Enable format on save
+  "editor.inlineSuggest.enabled": true, // Enable inline suggestions
+  "editor.lineNumbers": "relative", // Enable relative line numbers
+  "editor.minimap.enabled": false, // Disable the minimap
+  "editor.snippetSuggestions": "top", // Show snippet suggestions at the top
+
+  // TypeScript React settings
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // Set default formatter for TypeScript React to Prettier
+  },
+
+  // JavaScript debugging settings
+  "debug.javascript.defaultRuntimeExecutable": {
+    "pwa-node": "/Users/sebastiencebula/.nvm/versions/node/v22.2.0/bin/node" // Set default runtime executable for JavaScript debugging
+  },
+
+  // Diff editor settings
+  "diffEditor.codeLens": true, // Enable CodeLens in diff editor
+
+  // ESLint settings
+  "eslint.alwaysShowStatus": true, // Always show ESLint status
+
+  // File settings
+  "files.autoSave": "onFocusChange", // Enable auto-save on focus change
+
+  // Git settings
+  "git.autofetch": true, // Enable auto-fetch for git
+  "git.experimental.mergeEditor": true, // Enable experimental merge editor for git
+
+  // GitLens settings
+  "gitlens.advanced.messages": {
+    "suppressCreatePullRequestPrompt": true // Suppress create pull request prompt in GitLens
+  },
+  "gitlens.codeLens.includeSingleLineSymbols": true, // Include single line symbols in GitLens CodeLens
+
+  // GitHub Copilot settings
+  "github.copilot.enable": {
+    "*": true, // Enable GitHub Copilot for all languages
+    "markdown": true, // Enable GitHub Copilot for markdown
+    "plaintext": true, // Enable GitHub Copilot for plaintext
+    "yaml": true // Enable GitHub Copilot for YAML
+  },
+
+  // Java settings
+  "java.codeGeneration.generateComments": true, // Enable comment generation for Java code
+  "java.codeGeneration.hashCodeEquals.useInstanceof": true, // Use instanceof in hashCode and equals generation for Java
+  "java.codeGeneration.hashCodeEquals.useJava7Objects": true, // Use Java 7 Objects in hashCode and equals generation for Java
+  "java.saveActions.organizeImports": true, // Enable organize imports on save for Java
+
+  // Jupyter settings
+  "jupyter.allowUnauthorizedRemoteConnection": true, // Allow unauthorized remote connection for Jupyter
+
+  // Project Manager settings
+  "projectManager.git.baseFolders": ["~/Projects/B4F/", "~/Projects/Winit/"], // Set base folders for project manager
+
+  // Red Hat telemetry settings
+  "redhat.telemetry.enabled": false, // Disable Red Hat telemetry
+
+  // TypeScript settings
+  "typescript.implementationsCodeLens.enabled": true, // Enable TypeScript implementations CodeLens
+
+  // Vim settings
+  "vim.easymotion": true, // Enable vim easymotion
+  "vim.easymotionKeys": "sdfjkl", // Set vim easymotion keys
+  "vim.leader": "<space>", // Set leader key as space
+  "vim.foldfix": true, // Enable vim foldfix
+  "vim.vimrc.enable": true, // Enable vimrc support
+
+  // Window settings
+  "window.nativeTabs": true, // Enable native tabs
+
+  // Workbench settings
+  // "workbench.colorCustomizations": {
+  //   "editor.selectionBackground": "#2a43b4", // Customize selection background color
+  //   "editor.selectionHighlightBackground": "#444444" // Customize selection highlight background color
+  // }kkk
+  "workbench.colorTheme": "One Dark Pro", // Change the initial theme
+  "workbench.iconTheme": "material-icon-theme",
+  "whichkey.delay": 1000,
+  "cursor.cpp.enablePartialAccepts": true // Set the icon theme
+}
+
