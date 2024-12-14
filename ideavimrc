@@ -71,3 +71,4 @@ vmap <CR> <Plug>(easymotion-s)
 
 vnoremap y myy`y
 vnoremap Y myY`y
+
